@@ -4,18 +4,16 @@ A small, vendor-neutral troubleshooting aid for separating usage limits, context
 
 ## Included
 
-- `data/diagnostic-matrix.csv` — symptom-to-check matrix for a spreadsheet or support workflow.
-- `data/diagnostic-schema.json` — field definitions and severity values.
-- `tools/diagnose.py` — an offline command-line questionnaire that prints the next checks.
-- `docs/diagnostic-flow.md` — the decision flow with links to official Anthropic documentation.
+- `diagnostic-matrix.csv` — symptom-to-check matrix for a spreadsheet or support workflow.
+- `diagnostic-schema.json` — field definitions and severity values.
+- `diagnose.py` — an offline command-line questionnaire that prints the next checks.
+- `diagnostic-flow.md` — the decision flow with links to official Anthropic documentation.
 
 This project does not call Claude, inspect an account, or claim access to private usage data. It helps you collect the right facts before changing plans or credentials. The companion public guide is [Claude Usage Guide](https://claudeusageguide.com/).
 
 ## Quick start
 
-```bash
-python tools/diagnose.py
-```
+    python diagnose.py
 
 ## Scope
 
@@ -27,4 +25,4 @@ MIT
 
 ## Language
 
-简体中文说明见 [`README.zh-CN.md`](README.zh-CN.md)。
+简体中文说明见 [README.zh-CN.md](README.zh-CN.md)。
