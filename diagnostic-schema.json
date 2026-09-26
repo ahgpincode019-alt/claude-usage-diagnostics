@@ -1,0 +1,5 @@
+{
+  "required": ["symptom", "first_check", "likely_area", "next_action", "confidence", "official_reference"],
+  "confidence": ["high", "medium", "low"],
+  "likely_area": ["usage window", "context limit", "model or entitlement path", "authentication", "unknown"]
+}

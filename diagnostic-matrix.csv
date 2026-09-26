@@ -1,0 +1,5 @@
+symptom,first_check,likely_area,next_action,confidence,official_reference
+"Usage limit reached","Check /usage and note the reset window","usage window","Record session and weekly figures before changing settings","high","https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages"
+"Long conversation cannot continue","Check conversation size and context-related message","context limit","Start a compact continuation with a summary of required facts","medium","https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages"
+"API Error: Rate limit reached while web UI works","Check selected model and long-context options","model or entitlement path","Retry a minimal request on the ordinary model path; compare the result","medium","https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages"
+"CLI command reports not logged in","Run claude auth status","authentication","Authenticate through the official Claude Code flow; do not paste credentials into scripts","high","https://code.claude.com/docs/en/authentication"
